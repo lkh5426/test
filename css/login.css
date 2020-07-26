@@ -1,0 +1,23 @@
+.my_header{
+	width:100%;
+	border:0;
+	height:8rem;
+}
+.my_footer{
+	width:100%;
+	border:0;
+	height:30rem;
+}
+.bglogin{
+	background-image:linear-gradient(to right,#fbc2eb,#a6c1ee);
+}
+.user{
+	background-image:url(../img/yhm.png);
+	background-repeat:no-repeat;
+	background-position:97%;
+}
+.upwd{
+	background-image:url(../img/mm.png);
+	background-repeat:no-repeat;
+	background-position:97%;
+}

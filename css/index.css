@@ -1,0 +1,59 @@
+.my_header{
+	width:100%;
+	border:0;
+	height:8rem;
+}
+.my_footer{
+	width:100%;
+	border:0;
+	height:30rem;
+}
+.bg_carouseldown{
+	background-color:#0f203a;
+}
+.bg_image1{
+	background:linear-gradient(270deg,#439cec,#79bffd);
+}
+.bg_image2{
+	background:linear-gradient(270deg,#6c7cff,#899dff);
+}
+.bg_img1{
+	background-image:url(../img/1.png);
+	background-repeat:no-repeat;
+}
+.bg_img2{
+	background-image:url(../img/2.png);
+	background-repeat:no-repeat;
+	background-position:90% 90%;
+	background-size:25%;
+}
+.bg_image1:hover{
+	transform:scale(1.1);
+}
+.bg_image2:hover{
+	transform:scale(1.1);
+}
+.hidden{
+	overflow:hidden;
+}
+.bg_flog{
+	background-color:#e4f1fa;
+}
+.bg_id{
+	background-color:#80accb;
+}
+.text_danger:hover{
+	background-color:#f5c6cb;
+}
+.text_info:hover{
+	background-color:#17a2b8;
+}
+.text_primary:hover{
+	background-color:#007bff;
+}
+.text_warning:hover{
+	background-color:#ffc107;
+}
+.company:hover{
+	transform:scale(1.1);
+}

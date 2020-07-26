@@ -1,0 +1,181 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="css/vip.css">
+	</head>
+	<body>
+		<header>
+			<iframe src="header.html" frameborder="0" class="my_header" scrolling=no></iframe>
+		</header>	
+		<div class="container">
+			<div class="row bg_vip">
+				<div class="col"></div>
+				<div class="col"></div>
+				<div class="col">
+					<div class="window">
+						<table></table>
+						<div class="circle"></div>
+						<button data-target="#ljdl" data-toggle="modal" class="btn btn-primary btn_yd w-50">立即登录</button>
+						<div id="ljdl" class="modal">
+							<div class="modal-dialog">
+								<div class="modal-content">
+									<div class="modal-header">
+										<h2 class="float-left">快速登录</h2>
+									</div>
+									<div class="modal-body d-flex flex-column">
+										<input type="text" placeholder="请输入注册时的手机号" class="py-2 my-2">
+										<input type="text" placeholder="请输入登录密码" class="py-2 my-2">
+										<button class="btn btn-primary my-3">登录</button>
+									</div>
+								</div>
+							</div>
+						</div>
+						<p class="text-dark h5 pt-4 text-center border_pri">登录后可查看你的会员权益</p>
+					</div>
+				</div>
+			</div>
+			<ul class="d-flex justify-content-around list-unstyled pt-5 text-center nav nav-pills">
+				<li class="nav-item">
+					<a data-toggle="pill" class="nav-link active bg-transparent" href="#pill1"><img src="./img/icon1.png" alt=""></a>
+					<p class="vip_badge text-white">普通会员</p>
+					<p class="font-weight-bold">待收金额 &lt; 1万元</p>
+				</li>
+				<li class="nav-item">
+					<a data-toggle="pill" class="nav-link bg-transparent" href="#pill2"><img src="./img/icon2.png" alt=""></a>
+					<p class="vip_badge text-white">黄金会员</p>
+					<p class="font-weight-bold">1 万元 ≤ 待收金额&lt;10万元</p>
+				</li>
+				<li class="nav-item">
+					<a data-toggle="pill" class="nav-link bg-transparent" href="#pill3"><img src="./img/icon3.png" alt=""></a>
+					<p class="vip_badge text-white">铂金会员</p>
+					<p class="font-weight-bold">10万元≤待收金额&lt;50万元</p>
+				</li>
+				<li class="nav-item">
+					<a data-toggle="pill" class="nav-link bg-transparent" href="#pill4"><img src="./img/icon4.png" alt=""></a>
+					<p class="vip_badge text-white">钻石会员</p>
+					<p class="font-weight-bold">50万元≤待收金额</p>
+				</li>
+			</ul>
+			<div class="tab-content"><div id="pill1" class="tab-pane active"><ul class="list-unstyled d-flex justify-content-around align-items-end text-center">
+				<li>
+					<img src="img/huigeneral.png" alt="">
+					<p class="py-2">识别标识</p>
+				</li>
+				<li>
+					<img src="img/huishengri.png" alt="">
+					<p class="py-2">生日礼包</p>
+				</li>
+				<li>
+					<img src="img/huiphone.png" alt="">
+					<p class="py-2">专属电话</p>
+				</li>
+				<li>
+					<img src="img/huilicai.png" alt="">
+					<p class="py-2">定制产品</p>
+				</li>
+			</ul></div>
+			<div id="pill2" class="tab-pane"><ul class="list-unstyled d-flex justify-content-around align-items-end text-center">
+				<li>
+					<img src="img/general.png" alt="">
+					<p class="py-2">识别标识</p>
+				</li>
+				<li>
+					<img src="img/shengri.png" alt="">
+					<p class="py-2">生日礼包</p>
+				</li>
+				<li>
+					<img src="img/huiphone.png" alt="">
+					<p class="py-2">专属电话</p>
+				</li>
+				<li>
+					<img src="img/huilicai.png" alt="">
+					<p class="py-2">定制产品</p>
+				</li>
+			</ul></div>
+			<div id="pill3" class="tab-pane"><ul class="list-unstyled d-flex justify-content-around align-items-end text-center">
+				<li>
+					<img src="img/general.png" alt="">
+					<p class="py-2">识别标识</p>
+				</li>
+				<li>
+					<img src="img/shengri.png" alt="">
+					<p class="py-2">生日礼包</p>
+				</li>
+				<li>
+					<img src="img/phone.png" alt="">
+					<p class="py-2">专属电话</p>
+				</li>
+				<li>
+					<img src="img/licai.png" alt="">
+					<p class="py-2">定制产品</p>
+				</li>
+			</ul></div>
+			<div id="pill4" class="tab-pane"><ul class="list-unstyled d-flex justify-content-around align-items-end text-center">
+				<li>
+					<img src="img/general.png" alt="">
+					<p class="py-2">识别标识</p>
+				</li>
+				<li>
+					<img src="img/shengri.png" alt="">
+					<p class="py-2">生日礼包</p>
+				</li>
+				<li>
+					<img src="img/phone.png" alt="">
+					<p class="py-2">专属电话</p>
+				</li>
+				<li>
+					<img src="img/licai.png" alt="">
+					<p class="py-2">定制产品</p>
+				</li>
+			</ul></div></div>
+			<p class="font-weight-bold">升级规则</p>
+			<p>1.当会员的平台持有项目的待收金额达到会员相应等级的金额时，即时成为相对应等级会员。（账户待收金额仅包括定投派、产业派、项目标、零钱计划等产品，不包括余钱派和余钱派自动投标服务）。</p>
+			<p>2.会员有效期从成为会员当日开始计算，为期一年。</p>
+			<div class="d-flex">
+				<div class="window_small"></div>
+				<p class="h4 font-weight-bold ml-3">会员福利</p>
+			</div>
+			<table class="h5 text-center w-100 border_col mb-5 mt-3">
+				<tr class="bg_col text-white border_col">
+					<td class="py-2 border_col">等级权益</td>
+					<td class="py-2 border_col">黄金会员</td>
+					<td class="py-2 border_col">铂金会员</td>
+					<td class="py-2 border_col">钻石会员</td>
+				</tr>
+				<tr>
+					<td class="text_col py-2 border_col">识别标识</td>
+					<td class="text_col py-2 border_col">√</td>
+					<td class="text_col py-2 border_col">√</td>
+					<td class="text_col py-2 border_col">√</td>
+				</tr>
+				<tr>
+					<td class="text_col py-2 border_col">生日礼包</td>
+					<td class="border_col py-2">50元生活购物券或红包</td>
+					<td class="border_col py-2">100元生活购物券或红包</td>
+					<td class="border_col py-2">200元生活购物券或红包</td>
+				</tr>
+				<tr>
+					<td class="text_col py-2 border_col">专属服务</td>
+					<td class="py-2 border_col"></td>
+					<td class="py-2 border_col">专属电话</td>
+					<td class="py-2 border_col">专属电话</td>
+				</tr>
+				<tr>
+					<td class="text_col py-2 border_col">定制产品</td>
+					<td class="py-2 border_col"></td>
+					<td class="py-2 border_col">定制余钱派</td>
+					<td class="py-2 border_col">定制余钱派</td>
+				</tr>
+			</table>
+		</div>
+		<footer>
+			<iframe src="footer.html" frameborder="0" class="my_footer" scrolling=no></iframe>
+		</footer>
+	</body>
+</html>

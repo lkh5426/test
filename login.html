@@ -1,0 +1,54 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Document</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/login.css">
+	</head>
+	<body class="bglogin">
+		<header>
+			<iframe src="header.html" frameborder="0" class="my_header" scrolling=no></iframe>
+		</header>	
+		<div class="container">
+			<h2 class="text-center text-white py-4">产业互联网金融从这里开始·置上金融</h2>
+			<div class="row py-5">
+				<div class="col-4"></div>
+				<div class="col-4"></div>
+				<div class="col-4">
+					<ul class="list-group list-unstyled nav nav-pills">
+						<li class="nav-item list-group-item d-flex justify-content-between bg-transparent border-0 nav-item">
+							<a class="text-muted nav-link" href="#pill1" data-toggle="pill">普通登录</a>
+							<a class="text-muted nav-link" href="#pill2" data-toggle="pill">快速登录</a>
+						</li>
+					</ul>
+					<div class="tab-content">
+						<ul class="list-group list-unstyled tab-pane active" id="pill1">
+							<li>
+								<input type="text" placeholder="请输入用户名/手机号" class="user w-100 py-2 my-2 border-0">
+							</li>
+							<li>
+								<input type="password" placeholder="请输入登录密码" class="upwd w-100 py-2 my-2 border-0">
+							</li>
+							<li>
+								<input type="checkbox" id="zddl" checked>
+								<label for="zddl">自动登录</label>
+								<a href="" class="float-right text-dark">忘记密码</a>
+							</li>
+							<li>
+								<button class="btn btn-primary w-100">登录</button>
+							</li>
+						</ul>
+						<img id="pill2" class="tab-pane" src="./img/dlzwm.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<iframe src="footer.html" frameborder="0" class="my_footer" scrolling=no></iframe>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,57 @@
+.my_header{
+	width:100%;
+	border:0;
+	height:8rem;
+}
+.my_footer{
+	width:100%;
+	border:0;
+	height:30rem;
+}
+.bg_vip{
+	background-image:url(../img/vip.jpg);
+	background-size:100%;
+	height:30rem;
+}
+.window{
+	width:20rem;height:20rem;
+	background-color:#fff;
+	margin-top:5rem;
+	margin-right:3rem;
+}
+.circle{
+	width:10rem;height:10rem;
+	border-radius:50%;
+	background-image:url(../img/wdl.jpg);
+	background-repeat:no-repeat;
+	background-size:100%;
+	margin-top:-5rem;
+	margin-left:5rem;
+}
+.btn_yd{
+	margin-top:4rem;
+	margin-left:5rem;
+}
+.border_pri{
+	border-top:3px solid #0aa1ed;
+	margin-top:2rem;
+}
+.vip_badge{
+	border-radius:3rem;
+	background-color:#999;
+}
+.window_small{
+	margin-left:0.5rem;
+	width:0.7rem;height:2.5rem;
+	background-color:#C7940B;
+	border-radius:0.5rem;
+}
+.bg_col{
+	background-color:#C7940B;
+}
+.text_col{
+	color:#C7940B;
+}
+.border_col{
+	border:3px solid #C7940B;
+}

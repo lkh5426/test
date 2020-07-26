@@ -1,0 +1,36 @@
+*{margin:0;padding:0;}
+body{
+	background-color:#f8f9fa;
+}
+.w-10{
+	width:10%;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+	content:"|";
+}
+ul>li{
+	list-style:none;
+}
+ul.menu>li{
+	float:left;
+	position:relative;
+	padding-left:40px;
+}
+ul.menu>li>ul{
+	display:none;
+	position:absolute;
+	top:30px;
+	left:-5px;
+}
+ul.menu>li:hover>ul{
+	display:block;
+	background-color:#0aa1ed;
+	color:#fff;
+}
+ul.menu>li>ul>li{
+	width:160px;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+	font-size:13px;
+}

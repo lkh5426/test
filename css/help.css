@@ -1,0 +1,21 @@
+.my_header{
+	width:100%;
+	border:0;
+	height:8rem;
+}
+.my_footer{
+	width:100%;
+	border:0;
+	height:30rem;
+}
+.bg_help{
+	background-image:url(../img/bg-help-heder.png);
+}
+.bg_icon{
+	background-image:url(../img/icon-search.png);
+	background-repeat:no-repeat;
+	background-position:97%;
+}
+.outline_none{
+	outline:0;
+}
